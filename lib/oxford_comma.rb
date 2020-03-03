@@ -6,11 +6,11 @@ def oxford_comma(array)
     array[1] = " and " + array[1]
     return array.join("")
   else
-      for i in 0..array.size-1
+    for i in 0..array.size-1
     if(i == array.size-1)
-      array[i] = "and " + array[i]
+    array[i] = "and " + array[i]
     end
-  end
+    end
   end
   return array.join(", ")
 end
