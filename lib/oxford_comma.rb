@@ -2,7 +2,7 @@ def oxford_comma(array)
   # Takes an array of striings
   def oxford_comma(array)
     if(array.size == 1) 
-      return array.join("")
+      return array[0]
     elsif(array.size == 2)
       array[1] = " and " + array[1]
       return array.join("")
